@@ -11,10 +11,10 @@ const CONFIG = {
     instagram: "",
   },
   projects: [
-    // {
-    //   name: `morethan-log`,
-    //   href: "https://github.com/morethanmin/morethan-log",
-    // },
+    {
+      name: `morethan-log`,
+      href: "https://github.com/morethanmin/morethan-log",
+    },
   ],
   // blog setting (required)
   blog: {
@@ -53,9 +53,9 @@ const CONFIG = {
   utterances: {
     enable: false,
     config: {
-      // repo: "morethanmin/morethan-log",
-      // "issue-term": "og:title",
-      // label: "💬 Utterances",
+      repo: "morethanmin/morethan-log",
+      "issue-term": "og:title",
+      label: "💬 Utterances",
     },
   },
   cusdis: {
