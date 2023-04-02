@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "Kornel Skorka",
-    description: "",
+    title: "Kornelos",
+    description: "Software Engineering & stuff",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
@@ -45,7 +45,7 @@ const CONFIG = {
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
